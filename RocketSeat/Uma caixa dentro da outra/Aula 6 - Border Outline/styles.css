@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+div, button {
+    width: 100px;
+    height: 100px;
+    margin: 20% auto;
+    
+    border: 10px ridge red;
+    border-top: ridge 10px green;
+    border-bottom: groove 10px green;
+    border-radius: 10px;
+}
+button {
+    background: green;
+
+}
+button:focus,
+button:hover {
+    background-color: blueviolet;
+    cursor: help;
+}

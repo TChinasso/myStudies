@@ -1,0 +1,54 @@
+<!--
+    <input type="password">
+
+    - COloca uma senha de maneira segura
+    - Esconde o que esta sendo digitado no campo
+
+    # Atributos
+    
+    -minlengtrh / maxlength
+        * Numero maximo ou minimo de caracteres que esse campo devera conter
+    - size
+        * O numero aceitavel de caracteres que esse campo devera conter
+        <input type="password" minlength="8" maxlength="12" size="8">
+    - pattern
+        * Expressao regular para validar o que esta sendo digitado no campo
+        * altamente recomendado o uso de um padrao de seguranca alta de senhas
+        * Exemplo: Queremos que a senha contenha caracteres hexadecimais com o 
+        limite de no minimo 4 e no maximo 8 caracteres
+            * pattern="[0-9a-fA-F]{4,8}"
+    - Required
+        * o campo sera obrigatorio
+    - Inputmode
+        * podera alterar o uso do teclado em smartphones
+        * exemplo: queremos que o cliente so adicione numeros
+            * inputmode="numeric"
+    - Autocomplete
+        * on: permite a sugestao de: new-password ou current-password
+        * off: desabilita a opcao
+        * new-password: O navegador podera sugerir uma nova senha
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+</head>
+<body>
+    <form action="">
+        <input type="password" 
+        placeholder="Coloque sua senha"
+        pattern="[0-9 a-f A-F].{5,9}" 
+        title="Minimo 6 caracteres e maximo 10"
+        inputmode="numeric"
+        autocomplete="new-password"
+        
+        >
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

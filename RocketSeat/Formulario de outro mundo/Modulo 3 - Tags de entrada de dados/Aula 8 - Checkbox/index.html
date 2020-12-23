@@ -1,0 +1,46 @@
+<!--
+    - Caixaas que podem ser marcadas
+    - Seleciionar um valor para ser enviado
+    - Se nao selecionado, nao sera enviado nenhum dado
+
+    Atributos
+    - Globais
+    - Value
+        * Valor que aquele campo contem
+        * se nao estiver presente, o padrao e "on"
+    - checked
+        * para deixar o campo marcado como padrao
+
+    Multiplos valores
+    - Usaremos o atributo 'name' com o mesmo nome para os diversos campos
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Choose your interests</legend>
+            <div>
+                <label>
+                    <input type="checkbox" id="coding" name="interests" >
+                    Coding
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" id="Music" name="interests">
+                    Music
+                </label>
+            </div>
+        <button>Enviar</button>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

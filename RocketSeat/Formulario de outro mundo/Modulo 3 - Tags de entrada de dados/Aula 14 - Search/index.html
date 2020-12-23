@@ -1,0 +1,39 @@
+<!--
+    <input type="search">
+
+    - Para campos de busca
+    - e igual ao campo tipo text mas podera ser um popuco diferente dependendo do user agent
+
+    Atributos
+    -List / <datalist>
+    - Pattern
+    - aria-label
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <datalist id="searchterms">
+        <option>MAC</option>
+        <option>Windows</option>
+        <option>Linux</option>
+        <option>RaspBerry</option>
+    </datalist>
+    <form action="">
+        <fieldset>
+            <legend>Search</legend>
+            <label for="search">Faca sua busca por ID</label>
+            <input type="search" id="search" name="search" placeholder="Digite seu termo"
+            size 25
+            pattern="[0-9]{2,4}"
+            title="Digite um id de no maximo 4 digitos e no minimo 2"
+            >
+            <button type="submit">SEARCH</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!--
+    <datallist>
+
+    - Lista de valores como sugestao a uma tag input
+    - Valores sugestivos e nao obrigatorios
+    - Usuario podera selecionar um dos valores ou colocar algum
+    diferente da sugestao
+
+    <datalist id="fruitList">
+        <option>uva</option>
+        <option>maca</option>
+        <option>banana</option>
+        <option>morango</option>
+        <option>laranja</option>
+    </datalist>
+
+    ## List
+    
+    -Recebe como valor o id de um <datalist> residente no mesmo documento
+    
+    ## Tipos de input suportados
+
+    - Text, search, url, tel, email, date, month, week, time
+    datetime-local, number, range e color.
+
+    * Valores de datalist que nao sao compativeis com o tipo do input
+    nao serao apresentados
+
+    ## Tipos de input nao suportados
+
+    - Hidden, password, checkbox, radio, file, ou button
+
+    ##  User agent
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+        
+    <form action="" method="POST">
+        
+        <input type="text" list="fruitList" placeholder="Escolha ou digite uma fruta">
+        <input type="color" list="colorsList">
+        <datalist id="fruitList">
+            <option>banana</option>
+            <option>morango</option>
+            <option>laranja</option>
+        </datalist>
+        <datalist id="colorsList">
+            <option>#ff0000</option>
+            <option>#fff4ff</option>
+        </datalist>
+        
+
+    </form>
+
+
+</body>
+</html>

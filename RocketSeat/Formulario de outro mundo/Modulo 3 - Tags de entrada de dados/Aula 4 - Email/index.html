@@ -1,0 +1,28 @@
+<!--
+    Novos atributos
+
+    - Multiple
+        * o campo ira receber 1 ou mais emails, separado por virgulas
+    - Pattern
+        * Exemplo: o usuario so podera colocar email do dominio rocketseat
+            * pattern="[.+@rocketseat\.com\.br]"
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input type="email" 
+        title="Digite um email do dominio Rocketseat"
+        autocomplete="email" 
+        pattern="[.+@rocketseat\.com\.br]"
+        >
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
