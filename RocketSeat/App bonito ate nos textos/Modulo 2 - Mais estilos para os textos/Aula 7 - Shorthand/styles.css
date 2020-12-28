@@ -1,0 +1,7 @@
+/* SHORTHAND */
+
+
+p {
+    /* style, variant, weight, stretch, size, line-height, family */
+    font: italic 2em/20px Helvetica, Arial, sans-serif;
+}

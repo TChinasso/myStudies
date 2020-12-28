@@ -1,0 +1,5 @@
+p {
+    font-variant: small-caps;
+    /* transforma as letras minusculas em maisculas pequenas */
+    font-stretch: condensed;
+}

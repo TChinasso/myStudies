@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+p {
+    letter-spacing: 0;
+    word-spacing: 10px;
+}
+.box {
+    margin: 0;
+    width: 400px;
+    height: 200px;
+    border: solid red;
+    text-align: justify;
+}

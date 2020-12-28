@@ -1,0 +1,16 @@
+a {
+    display: block;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  a:hover {
+    color: red;
+  }
+  input {
+    outline:none
+  }
+  input:focus {
+    background-color:grey;
+    border-color: red;
+  }

@@ -1,0 +1,10 @@
+input:disabled {
+    background-color: red;
+  }
+  input {
+    display: block;
+    margin: 10px 10px 100px 10px;
+  }
+  input:required {
+    background-color: green;
+  }

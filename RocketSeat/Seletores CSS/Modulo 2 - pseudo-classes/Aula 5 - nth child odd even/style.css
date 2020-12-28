@@ -1,0 +1,8 @@
+ul li:nth-child(odd){
+    font-weight: bold;
+    color: red;
+  }
+  ul li:nth-child(even){
+    font-weight: bold;
+    background: green;
+  }
