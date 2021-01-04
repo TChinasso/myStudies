@@ -1,0 +1,10 @@
+body {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 3vh;
+}
+h1, h2{
+    font-weight: 200;
+}
